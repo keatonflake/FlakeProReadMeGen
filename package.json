@@ -11,7 +11,7 @@
     "url": "git+https://github.com/keatonflake/readme-generator.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-1.1",
   "bugs": {
     "url": "https://github.com/keatonflake/readme-generator/issues"
   },
