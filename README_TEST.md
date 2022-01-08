@@ -3,11 +3,11 @@
 ## Description
 
 ## Table Of Contents
-  * [Usage](## Usage)
-  * [License](## License)
-  * [Contributing](## Contributing)
-  * [Tests](## Tests)
-  * [Questions](## Questions)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
 ## Usage
 
