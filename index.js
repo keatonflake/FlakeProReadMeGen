@@ -1,22 +1,22 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
 // TODO: Create an array of questions for user input
+
 const promptUser = () => {
     return inquirer.prompt([
-        // projectName
-        {
-            type: 'input',
-            name: 'projectName',
-            message: 'Project Name: Enter Project Name ',
-            validate: projectNameInput => {
-                if(projectNameInput) {
-                    return true;
-                } else {
-                    console.log("Project Name: Please Enter Project Name")
-                    return false;
-                }
-            }
-        },
+      {
+        type: 'input',
+        name: 'projectName',
+        message: 'What is your project name?',
+        validate: projectName => {
+          if (projectName) {
+            return true;
+          } else {
+            console.log('Please enter your project name!');
+            return false;
+          }
+        }
+      },
         // description
         {
             type: 'input',
@@ -59,12 +59,12 @@ const promptUser = () => {
                 }
             }
         },
-        // License(checkbox)
+        // License(list)
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
             message: 'License: Select a License',
-            choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'BSD 3-Clause License', 'BSD 2-Clause License', 'Eclipse', 'MIT']
+            choices: ['Apache 2.0 License', new inquirer.Separator(), 'Boost Software License 1.0', new inquirer.Separator(), 'BSD 3-Clause License', new inquirer.Separator(), 'BSD 2-Clause License', new inquirer.Separator(), 'Eclipse', new inquirer.Separator(), 'MIT', new inquirer.Separator()]
         },
         // contributing
         {
@@ -125,12 +125,14 @@ const promptUser = () => {
         }
     ]);
 };
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
+// // TODO: Create a function to initialize app
+// function init() {}
 
-// Function call to initialize app
-init();
-
+// // Function call to initialize app
+promptUser()
+// .then(readmedata => {
+//     return generateReadme(readmedata);
+// });
