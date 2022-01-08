@@ -18,9 +18,9 @@
 ## Tests
 Licensed under the __ license.
 ## Questions
-  github link:_
-  Email address:_
-  
+  <p align=center>github link: 
+  Email address: 
+  </p>
 
 
 
