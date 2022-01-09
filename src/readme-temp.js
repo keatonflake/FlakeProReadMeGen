@@ -57,7 +57,7 @@ ${tests}
 
 ## Questions
 Contact me:
-[gitHub Link Here](https://github.com/${github})
+[github Link Here](https://github.com/${github})
 ${email}
 `;
 };
