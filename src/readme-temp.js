@@ -30,33 +30,33 @@ module.exports = readmedata => {
     const { projectName, description, usage, license, contributing, tests, github, email} = readmedata;
 
     return `
-    # ${projectName}
-    ${renderLicenseBadge(license)}
-    ## Description
-    ${description}
+# ${projectName}
+${renderLicenseBadge(license)}
+## Description
+${description}
     
-    ## Table Of Contents
-      * [Usage](#usage)
-      * [License](#license)
-      * [Contributing](#contributing)
-      * [Tests](#tests)
-      * [Questions](#questions)
+## Table Of Contents
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
     
-    ## Usage
-    ${usage}
+## Usage
+${usage}
     
-    ## License
-    Licensed under the ${renderLicenseBadge(license)} license.
+## License
+Licensed under the ${renderLicenseBadge(license)} license.
     
-    ## Contributing
-    ${contributing}
+## Contributing
+${contributing}
     
-    ## Tests
-    ${tests}
+## Tests
+${tests}
 
-    ## Questions
-    <p align=center>Contact me:</p>
-      <p align=center>[gitHub Link Here](https://github.com/${github})github link: </p>
-      <p align=center>Email address:${email}</p>
-  `;
+## Questions
+<p align=center>Contact me:</p>
+<p align=center>[gitHub Link Here](https://github.com/${github})github link: </p>
+<p align=center>Email address:${email}</p>
+`;
 };
