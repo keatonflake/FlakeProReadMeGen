@@ -9,16 +9,16 @@ function renderLicenseBadge(license) {
         badge = `[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`
     }
     else if (licenseType === 'BSD 2-Clause License') {
-        badge = `[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`
+        badge = `[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`
     }
     else if (licenseType === 'BSD 3-Clause License') {
-        badge = `[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`
+        badge = `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`
     }
     else if (licenseType === 'Boost Software License 1.0') {
-        badge = `[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`
+        badge = `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`
     }
     else if (licenseType === 'Apache 2.0 License') {
-        badge = `[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`
+        badge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
     }
     else {
         badge = 'N/A'
@@ -55,8 +55,8 @@ module.exports = readmedata => {
     ${tests}
 
     ## Questions
-    Contact me:
-      <p align=center>[${github}](https://github.com/${github})github link: </p>
+    <p align=center>Contact me:</p>
+      <p align=center>[gitHub Link Here](https://github.com/${github})github link: </p>
       <p align=center>Email address:${email}</p>
   `;
 };
