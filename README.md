@@ -9,3 +9,12 @@ Not only did this project give me a better understanding of using the NPM librar
 To run using Node: git clone repository, use "npm init" to download package.json 
 ## Usage
 Answer prompts to create a well documented README file for your project.
+
+## Github
+Github URL: https://github.com/keatonflake/FlakeProReadMeGen
+
+## Example README
+Example README: https://github.com/keatonflake/FlakeProReadMeGen/blob/main/example.README.md
+
+## Walkthrough Link
+https://drive.google.com/file/d/1h5Ak3vNMYHlTnJSRI4_LDBumNE1AGtyN/view
