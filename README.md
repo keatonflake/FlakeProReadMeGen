@@ -7,6 +7,7 @@ Not only did this project give me a better understanding of using the NPM librar
 
 ## Installation
 To run using Node: git clone repository, use "npm init" to download package.json 
+
 ## Usage
 Answer prompts to create a well documented README file for your project.
 
