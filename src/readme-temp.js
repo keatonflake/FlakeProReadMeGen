@@ -32,15 +32,16 @@ module.exports = readmedata => {
     return `
 # ${projectName}
 ${renderLicenseBadge(license)}
+
 ## Description
 ${description}
     
 ## Table Of Contents
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
     
 ## Usage
 ${usage}
@@ -55,8 +56,8 @@ ${contributing}
 ${tests}
 
 ## Questions
-<p align=center>Contact me:</p>
-<p align=center>[gitHub Link Here](https://github.com/${github})github link: </p>
-<p align=center>Email address:${email}</p>
+Contact me:
+[gitHub Link Here](https://github.com/${github})
+${email}
 `;
 };
